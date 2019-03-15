@@ -1,0 +1,60 @@
+/*
+Theme Name: fbt tema
+Author: André Ingman
+*/
+
+/* ------------Fonts------------ */
+@font-face {
+  font-family: BebasNeue;
+  src: url(fonts/BebasNeue-Regular.otf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: BebasNeue, sans-serif;
+}
+
+* p {
+  font-family: Montserrat, sans-serif;
+}
+/*-------------------------------*/
+
+/* ---------css effects--------- */
+
+/*-------------------------------*/
+
+/* ------------General style------------ */
+#topheadcol ul li {
+  display: inline-block;
+  font-family: BebasNeue;
+  font-size: 24px;
+  padding: 45px;
+}
+
+#topheadcol div + div {
+  height: 93px;
+  width: 93px;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  font-size: 35px;
+  padding: 10px;
+}
+
+#tileindex {
+  padding: 40px 0 40px 0;
+}
+
+.wp-block-media-text__content > h2 {
+  font-size: 32px;
+}
+
+#recent-posts-widget-with-thumbnails-2 a {
+  font-size: 32px;
+}
