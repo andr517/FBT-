@@ -1,2 +1,2 @@
 # WIP theme for a website im working on.
-wordpress theme combined with advanced custom fields
+Wordpress theme combined with advanced custom fields and bulma.
