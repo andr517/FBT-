@@ -25,8 +25,7 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_style' );
 function register_my_menus() {
   register_nav_menus(
     array(
-      'header-menu1' => __( 'Header Menu 1' ),
-      'header-menu2' => __( 'Header Menu 2' )
+      'header-menu1' => __( 'Header Menu 1' )
     )
   );
 }
@@ -90,5 +89,11 @@ function fbt_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'fbt_widgets_init' );
+?>
 
+<?php
+require_once('navwalker.php');
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'header-menu1' ),
+) );
 ?>

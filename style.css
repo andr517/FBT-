@@ -23,23 +23,14 @@ h1 h2 h3 h4 h5 h6 {
 }
 /*-------------------------------*/
 
-/* ---------css effects--------- */
+/* ---------navbar--------- */
+.navbar-brand {
+
+}
 
 /*-------------------------------*/
 
 /* ------------General style------------ */
-#topheadcol ul li {
-  display: inline-block;
-  font-family: BebasNeue;
-  font-size: 24px;
-  padding: 45px;
-}
-
-#topheadcol div + div {
-  height: 93px;
-  width: 93px;
-}
-
 .social li {
   list-style: none;
   display: inline-block;

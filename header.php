@@ -10,7 +10,7 @@
 
   <?php wp_head(); ?>
 
-  <section class="hero is-dark">
+  <section class="hero is-dark is-small">
     <div class="hero-body">
       <div class="container">
   <?php get_template_part('partials/head', 'menu');?>
