@@ -40,8 +40,8 @@ add_action( 'init', 'register_my_menus' );
 function fbt_widgets_init() {
 
 	register_sidebar( array(
-		'name'          => 'header logo',
-		'id'            => 'header-logo',
+		'name'          => 'header text',
+		'id'            => 'header-text',
 		'before_widget' => '<div>',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h2 class="rounded">',

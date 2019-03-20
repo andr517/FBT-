@@ -1,9 +1,9 @@
 <div>
     <nav class="navbar container" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="<?php echo home_url(); ?>">
-            <?php if(is_active_sidebar('header-logo')){
-              dynamic_sidebar('header-logo');
+          <a href="<?php echo home_url(); ?>">
+            <?php if(is_active_sidebar('header-text')){
+              dynamic_sidebar('header-text');
             } ?>
           </a>
 
@@ -13,18 +13,19 @@
                 <span></span>
             </button>
         </div>
+        <div class="navbar-end">
         <?php
-        wp_nav_menu( array(
-            'theme_location'    => 'header-menu1',
-            'depth'             => 2,
-            'container'         => true,
-            // 'items_wrap'     => 'div',
-            'menu_class'        => 'navbar-menu',
-            'menu_id'           => 'primary-menu',
-            'after'             => "</div>",
-            'walker'            => new Navwalker())
-        );
-        ?>
-
+      wp_nav_menu( array(
+          'theme_location'    => 'header-menu1',
+          'depth'             => 2,
+          'container'         => false,
+          //'items_wrap'        => "<div>",
+          'menu_class'        => 'navbar-menu',
+          'menu_id'           => 'primary-menu',
+          //'after'             => "</div>",
+          'walker'            => new Navwalker())
+      );
+      ?>
+    </div>
     </nav>
 </div>
