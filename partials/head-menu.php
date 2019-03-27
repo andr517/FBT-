@@ -2,8 +2,8 @@
     <nav class="navbar container" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a href="<?php echo home_url(); ?>">
-            <?php if(is_active_sidebar('header-text')){
-              dynamic_sidebar('header-text');
+            <?php if(is_active_sidebar('header-logo')){
+              dynamic_sidebar('header-logo');
             } ?>
           </a>
 

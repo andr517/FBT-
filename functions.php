@@ -40,8 +40,8 @@ add_action( 'init', 'register_my_menus' );
 function fbt_widgets_init() {
 
 	register_sidebar( array(
-		'name'          => 'header text',
-		'id'            => 'header-text',
+		'name'          => 'header logo',
+		'id'            => 'header-logo',
 		'before_widget' => '<div>',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h2 class="rounded">',
@@ -49,7 +49,7 @@ function fbt_widgets_init() {
 	) );
 
 	register_sidebar( array(
-			'name'          => __( 'Footer Left', 'fbt' ),
+			'name'          => __( 'Footer 1', 'fbt' ),
 			'id'            => 'footer-1',
 			'description' => 'Appears in the footer area',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -59,7 +59,7 @@ function fbt_widgets_init() {
 	) );
 
 	register_sidebar( array(
-			'name'          => __( 'Footer Middle', 'fbt' ),
+			'name'          => __( 'Footer 2', 'fbt' ),
 			'id'            => 'footer-2',
 			'description' 	=> 'Appears in the footer area',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -69,7 +69,7 @@ function fbt_widgets_init() {
 	) );
 
 	register_sidebar( array(
-			'name'          => __( 'Footer Right', 'fbt' ),
+			'name'          => __( 'Footer 3', 'fbt' ),
 			'id'            => 'footer-3',
 			'description' 	=> 'Appears in the footer area',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',

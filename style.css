@@ -34,8 +34,13 @@ ul > a {
   margin-right: 30px;
 }
 
+#primary-menu a:hover {
+  background-color: inherit;
+  text-decoration: underline;
+}
+
 .navbar-burger:hover{
-  color: white;
+  background-color: white;
 }
 
 @media only screen and (max-width: 1085px) {
@@ -53,14 +58,143 @@ ul > a {
   padding: 10px;
 }
 
-#tileindex {
-  padding: 40px 0 40px 0;
+/*----------------Footer style---------------*/
+.footer-fbt{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
 }
 
-.wp-block-media-text__content > h2 {
-  font-size: 32px;
+/* Footer left */
+
+.footer-left a:hover {
+  text-decoration: underline;
 }
 
-#recent-posts-widget-with-thumbnails-2 a {
-  font-size: 32px;
+.footer-fbt .footer-left{
+	width: 40%;
 }
+
+/* The company logo */
+
+.footer-fbt h3{
+	color:  #ffffff;
+	font: normal 33px BebasNeue, sans-serif;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-fbt ul > li{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+  display: inline-block;
+  padding-right: 6px;
+}
+
+.footer-fbt ul > li a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-fbt .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-fbt .footer-center{
+	width: 35%;
+}
+
+.footer-fbt .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-fbt .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-fbt .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-fbt .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-fbt .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-fbt .footer-right{
+	width: 20%;
+}
+
+.footer-fbt .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-fbt .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-fbt .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-fbt .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* ---------------------------- */
