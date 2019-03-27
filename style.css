@@ -58,6 +58,43 @@ ul > a {
   padding: 10px;
 }
 
+.hero.is-large .hero-body {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.ep-logo {
+    max-width: 70%;
+    max-height: 65%;
+}
+
+.headicons > a {
+  font-size: 35px;
+  display: inline-block;
+  color: #424242;
+}
+
+.headicons a + a {
+  padding-left: 2.2em;
+  margin-top: 10px;
+}
+
+.headicons a:hover {
+  color: #dddddd; 
+}
+/*----------------button style---------------*/
+
+.btn {
+  background: inherit;
+  font-family: Montserrat,sans-serif;
+  font-size: 30px;
+  border-radius: inherit;
+  border-width: medium;
+  border-color: #424242;
+}
+
+/*-------------------------------*/
+
 /*----------------Footer style---------------*/
 .footer-fbt{
 	background-color: #292c2f;
@@ -186,9 +223,9 @@ ul > a {
 	height: 35px;
 	cursor: pointer;
 	background-color:  #33383b;
-	border-radius: 2px;
+	border-radius: 1px;
 
-	font-size: 20px;
+	font-size: 25px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
